@@ -52,6 +52,11 @@ The one conclusiojn is that resampling does not gurantee better results.
 
 avg / total       0.99      0.59      0.72      0.74      0.65      0.42     17205
 
+In SMOTEENN we see that some of the metrics show an improvement. The recall for the high-risk pool example, is 72% that is the highest we have seen in all 4 sample models. The precision metrics is same as indicated in all 3 other models. The accuracy score is also approximately 66%.
 
 
+####  Final recommendation
+
+The above metrics are so very similar throughout the different models, it is almost impossible to recommend one over the other.
+That said, I would recommend the SMOTEENN algorithm since that combines aspects of both the oversampling and undersampling, which eliminates some of the challenges found in solely oversampling or undersampling alone. 
 
