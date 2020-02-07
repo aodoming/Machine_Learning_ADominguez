@@ -15,7 +15,7 @@ Building and evaluating several machine learning models to assess credit risk, i
 
 avg / total       0.99      0.63      0.64      0.77      0.64      0.40     17205
 
-In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. The accuracy score measures the performance of a aclassifier, so for a score of 64% in this model the performance of the classifier isn't that impressive. Though accuracy is not a good metric when the data is imbalanced. Precision and recall shows low values as well, and a low precision means there are a lot more false positives in the data. For the True Positive Rate(recall) it measures the classifier's completeness, and therefore a low value recall such as above, indicates a high number of false negatives 
+In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. The accuracy score measures the performance of a classifier, so for a score of 64% in this model the performance of the classifier isn't that impressive. Though accuracy is not a good metric when the data is imbalanced. Precision and recall show low values as well, and a low precision means there are more false positives in the data. For the True Positive Rate(recall) it measures the classifier's completeness, and therefore a low value recall such as above, indicates a high number of false negatives 
 
 
 #### SMOTE 
@@ -26,9 +26,9 @@ In random oversampling, instances of the minority class are randomly selected an
 
 avg / total       0.99      0.68      0.61      0.80      0.64      0.41     17205
 
-While recall values in the SMOTE model, is a little better in the low-risk pool than in the random-oversampling, it is not by much. Like the Random Oversampling, precision is dismal, meaning in both risk pools meaning there are a lot of false positives (precision) amd false negatives(recall) in this data as well. The balanced accuracy score is about 66%, not much greater than that in the previous model.
+While recall values in the SMOTE model, is a little better in the low-risk pool than in the random-oversampling, it is not by much. Like the Random Oversampling, precision is dismal, meaning in both risk pools meaning there are a lot of false positives (precision) and false negatives(recall) in this data as well. The balanced accuracy score is about 66%, not much greater than that in the previous model.
 
-In both Oversampling examples above (SMOTE & Random Over Sampling) it is important to note that one model does not outperform the other. In fact their metrics and performance are about the same. Plus SMOTE is vulnerable to outliers.
+In both Oversampling examples above (SMOTE & Random Over Sampling) it is important to note that one model does not outperform the other. In fact, their metrics and performance are about the same. Plus, SMOTE is vulnerable to outliers.
 
 
 
@@ -41,8 +41,7 @@ In both Oversampling examples above (SMOTE & Random Over Sampling) it is importa
 avg / total       0.99      0.39      0.63      0.56      0.50      0.24     17205
 
 Similar to SMOTE is the Cluster Centroids Algorithm/Model. Centroids represents the clusters of generated data points of a majority class. With balanced accuracy metric approximating 66% the performance of the classifier is very similar to that of the SMOTE model. 
-The one conclusiojn is that resampling does not gurantee better results.
-
+The one conclusion is that resampling does not guarantee better results.
 
 #### SMOTEENN Algorithm
                    pre       rec       spe        f1       geo       iba       sup
@@ -55,7 +54,7 @@ avg / total       0.99      0.59      0.72      0.74      0.65      0.42     172
 In SMOTEENN we see that some of the metrics show an improvement. The recall for the high-risk pool example, is 72% that is the highest we have seen in all 4 sample models. The precision metrics is same as indicated in all 3 other models. The accuracy score is also approximately 66%.
 
 
-####  Final recommendation
+#### Final recommendation
 
 The above metrics are so very similar throughout the different models, it is almost impossible to recommend one over the other.
 That said, I would recommend the SMOTEENN algorithm since that combines aspects of both the oversampling and undersampling, which eliminates some of the challenges found in solely oversampling or undersampling alone. 
