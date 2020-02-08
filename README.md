@@ -58,5 +58,3 @@ In SMOTEENN we see that some of the metrics show an improvement. The recall for 
 
 The above metrics are so very similar throughout the different models, it is almost impossible to recommend one over the other.
 That said, I would recommend the SMOTEENN algorithm since that combines aspects of both the oversampling and undersampling, which eliminates some of the challenges found in solely oversampling or undersampling alone. 
-
->>>>>>> 79d42f5c1cab8fd13510875f2c16003f8ef75fb9
