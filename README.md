@@ -36,9 +36,14 @@ Using Python to build and evaluate several machine learning models, predict cred
  
 
 ### RESULTS
-<img align="center" width="650" src="pics/classification_model.png"><br/>
-<img align="center" width="650" src="/pics/satellite.png"><br/>
-<img align="center" width="650" src="/pics/dark.png"><br/>
+* Classification Model
+<img align="center" width="650" src="pics/classification_model.png"><br/><br/>
+
+* Decision Tree
+<img align="center" width="650" src="pics/decisionTree_model.png"><br/><br/>
+
+* Linear Regression
+<img align="center" width="650" src="/pics/dark.png"><br/><br/>
 
 
 ### THINGS LEARNED
