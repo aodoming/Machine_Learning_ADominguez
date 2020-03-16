@@ -43,7 +43,7 @@ Using Python to build and evaluate several machine learning models, predict cred
 <img align="center" width="650" src="pics/decisionTree_model.png"><br/><br/>
 
 * Linear Regression
-<img align="center" width="650" src=pics/linearRegression_model.png"><br/><br/>
+<img align="center" width="650" src= "pics/linearRegression_model.png"><br/><br/>
 
 
 ### THINGS LEARNED
