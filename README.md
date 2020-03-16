@@ -36,7 +36,7 @@ Using Python to build and evaluate several machine learning models, predict cred
  
 
 ### RESULTS
-<img align="center" width="650" src="/pics/street.png"><br/>
+<img align="center" width="650" src="pics/classification_model.png"><br/>
 <img align="center" width="650" src="/pics/satellite.png"><br/>
 <img align="center" width="650" src="/pics/dark.png"><br/>
 
