@@ -61,11 +61,11 @@ Python and Scikit-learn
 
 
 
-## SITUATION/TASK - CHALLENGE RESULTS
+### SITUATION/TASK - CHALLENGE RESULTS
 Building and evaluating several machine learning models to assess credit risk, includes: Training a logistic regression classifier, calculating the balanced accuracy score, generating a confusion matrix and printing the classification report.
 
 
-## Summary and analysis of the models’ performance:
+### Summary and analysis of the models’ performance:
 
 #### Random OverSampling
                   pre       rec       spe        f1       geo       iba       sup
